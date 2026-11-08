@@ -1,0 +1,258 @@
+[
+  {
+    "name": "dense8",
+    "config": {
+      "block_size": 256,
+      "n_layer": 8,
+      "n_loop": 1,
+      "n_head": 4,
+      "n_kv_head": 4,
+      "n_embd": 128,
+      "mlp_ratio": 4,
+      "dropout": 0.1,
+      "vocab_size": 277,
+      "n_experts": 1,
+      "top_k": 1,
+      "moe_aux": 0.01,
+      "router_z": 0.001,
+      "adapter_dim": 0
+    },
+    "params_total": 1619968,
+    "params_active_unique": 1619968,
+    "params_applied_per_token": 1619968,
+    "steps": 1500,
+    "tokens_seen": 12288000,
+    "train_seconds": 102.37669038772583,
+    "tokens_per_sec": 120027.32217130977,
+    "train_loss_final": 1.2357518672943115,
+    "val_loss": 1.1887410879135132,
+    "loop_val_losses": [
+      1.1887410879135132
+    ],
+    "exit_curve": [
+      {
+        "threshold": 0.2,
+        "val_loss": 1.175007164478302,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "val_loss": 1.175007164478302,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "val_loss": 1.175007164478302,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "val_loss": 1.175007164478302,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "val_loss": 1.175007164478302,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "val_loss": 1.175007164478302,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      }
+    ],
+    "exit_loop_ce": [
+      1.175007164478302
+    ],
+    "selected_exit": {
+      "threshold": null,
+      "val_loss": 1.1887410879135132,
+      "avg_loops": 1.0,
+      "early_exit_fraction": 0.0
+    },
+    "sample": "def select_from_element(_self):\n        fileno()\n        self._selected(self._name, self._hind)\n        self._unnor = self.match\n        self.headers.append() block\n\n    def __mapper__(self, option=None):",
+    "sample_loops_mean": 1.0,
+    "sample_exit_threshold": null,
+    "gen_cached_tok_s": 86.96366992640165,
+    "gen_plain_tok_s": 84.58554962946718,
+    "device": "cuda"
+  },
+  {
+    "name": "hybrid_e4",
+    "config": {
+      "block_size": 256,
+      "n_layer": 4,
+      "n_loop": 2,
+      "n_head": 4,
+      "n_kv_head": 2,
+      "n_embd": 128,
+      "mlp_ratio": 4,
+      "dropout": 0.1,
+      "vocab_size": 277,
+      "n_experts": 4,
+      "top_k": 1,
+      "moe_aux": 0.01,
+      "router_z": 0.001,
+      "adapter_dim": 16
+    },
+    "params_total": 2380544,
+    "params_active_unique": 800000,
+    "params_applied_per_token": 1528064,
+    "steps": 1500,
+    "tokens_seen": 12288000,
+    "train_seconds": 119.42706179618835,
+    "tokens_per_sec": 102891.25274613584,
+    "train_loss_final": 1.3035305738449097,
+    "val_loss": 1.107088565826416,
+    "loop_val_losses": [
+      1.1170482218265534,
+      1.1070885837078095
+    ],
+    "exit_curve": [
+      {
+        "threshold": 0.2,
+        "val_loss": 1.1773762464523316,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.3,
+        "val_loss": 1.1773762464523316,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.4,
+        "val_loss": 1.1773762464523316,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.5,
+        "val_loss": 1.1773762464523316,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.6,
+        "val_loss": 1.176373338699341,
+        "avg_loops": 1.090625,
+        "early_exit_fraction": 0.909375
+      },
+      {
+        "threshold": 0.7,
+        "val_loss": 1.1729947805404664,
+        "avg_loops": 1.546875,
+        "early_exit_fraction": 0.453125
+      }
+    ],
+    "exit_loop_ce": [
+      1.1773762464523316,
+      1.1690853536128998
+    ],
+    "selected_exit": {
+      "threshold": null,
+      "val_loss": 1.1070885837078095,
+      "avg_loops": 2.0,
+      "early_exit_fraction": 0.0
+    },
+    "sample": "def create_bytes()\n\ndef get_protocol(level):\n    len(maxsize):\n        updater = self._column_load()\n        return self.encode(cls._doc=\"%r\")\n\n    def __async__(self, _getattr(self, int, callback):\n     ",
+    "sample_loops_mean": 2.0,
+    "sample_exit_threshold": null,
+    "gen_cached_tok_s": 67.88444377007309,
+    "gen_plain_tok_s": 53.72498880710453,
+    "device": "cuda"
+  },
+  {
+    "name": "hybrid_e8",
+    "config": {
+      "block_size": 256,
+      "n_layer": 4,
+      "n_loop": 2,
+      "n_head": 4,
+      "n_kv_head": 2,
+      "n_embd": 128,
+      "mlp_ratio": 4,
+      "dropout": 0.1,
+      "vocab_size": 277,
+      "n_experts": 8,
+      "top_k": 1,
+      "moe_aux": 0.01,
+      "router_z": 0.001,
+      "adapter_dim": 16
+    },
+    "params_total": 4489984,
+    "params_active_unique": 802048,
+    "params_applied_per_token": 1532160,
+    "steps": 1500,
+    "tokens_seen": 12288000,
+    "train_seconds": 149.8848798274994,
+    "tokens_per_sec": 81982.91925204266,
+    "train_loss_final": 1.0861647129058838,
+    "val_loss": 1.1571199893951416,
+    "loop_val_losses": [
+      1.1656405448913574,
+      1.1571200966835022
+    ],
+    "exit_curve": [
+      {
+        "threshold": 0.2,
+        "val_loss": 1.0806402206420898,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.3,
+        "val_loss": 1.0806402206420898,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.4,
+        "val_loss": 1.0806402206420898,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.5,
+        "val_loss": 1.0806402206420898,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.6,
+        "val_loss": 1.0801129996776582,
+        "avg_loops": 1.06875,
+        "early_exit_fraction": 0.93125
+      },
+      {
+        "threshold": 0.7,
+        "val_loss": 1.0761317014694214,
+        "avg_loops": 1.49375,
+        "early_exit_fraction": 0.50625
+      }
+    ],
+    "exit_loop_ce": [
+      1.0806402206420898,
+      1.0725002944469453
+    ],
+    "selected_exit": {
+      "threshold": 0.2,
+      "val_loss": 1.0806402206420898,
+      "avg_loops": 1.0,
+      "early_exit_fraction": 1.0
+    },
+    "sample": "def __init__(self, self, tag, (self):\n        return d.streamReader.result(\n\n    def __init__(self, flags):\n        \"\"\"Appense and return index file the astern of stop.\"\"\"\n        raise Raised = self._ind",
+    "sample_loops_mean": 1.0,
+    "sample_exit_threshold": 0.2,
+    "gen_cached_tok_s": 62.11937377871947,
+    "gen_plain_tok_s": 40.532729026479295,
+    "device": "cuda"
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "dense8": {
+    "config": {
+      "block_size": 256,
+      "n_layer": 8,
+      "n_loop": 1,
+      "n_head": 4,
+      "n_kv_head": 4,
+      "n_embd": 128,
+      "mlp_ratio": 4,
+      "dropout": 0.1,
+      "vocab_size": 277,
+      "n_experts": 1,
+      "top_k": 1,
+      "moe_aux": 0.01,
+      "router_z": 0.001,
+      "adapter_dim": 0
+    },
+    "val_loss": 1.1805942058563232,
+    "loop_losses": [
+      1.1805941796302795
+    ],
+    "loop_ce_calib": [
+      1.177314875125885
+    ],
+    "exit_curve": [
+      {
+        "threshold": 0.2,
+        "val_loss": 1.177314875125885,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.3,
+        "val_loss": 1.177314875125885,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.4,
+        "val_loss": 1.177314875125885,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.5,
+        "val_loss": 1.177314875125885,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.6,
+        "val_loss": 1.177314875125885,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      },
+      {
+        "threshold": 0.7,
+        "val_loss": 1.177314875125885,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 0.0
+      }
+    ],
+    "selection_tolerance": 0.011773148751258851,
+    "aggressive": null,
+    "balanced": null,
+    "samples": {
+      "full": {
+        "threshold": null,
+        "text": "def __name__(self, other):\n        \"\"\"Parence so an self.__sextends(type)\n        if not hasattr(a, bytes):\n            count = self._format_offs_orig_action(part, value)\n        for string in test()\n    ",
+        "loops_mean": 1,
+        "tok_s": 52.37440590606618
+      }
+    },
+    "cache_128tok_s": 38.793759567544285,
+    "nocache_128tok_s": 19.82186352965327
+  },
+  "hybrid_e4": {
+    "config": {
+      "block_size": 256,
+      "n_layer": 4,
+      "n_loop": 2,
+      "n_head": 4,
+      "n_kv_head": 2,
+      "n_embd": 128,
+      "mlp_ratio": 4,
+      "dropout": 0.1,
+      "vocab_size": 277,
+      "n_experts": 4,
+      "top_k": 1,
+      "moe_aux": 0.01,
+      "router_z": 0.001,
+      "adapter_dim": 16
+    },
+    "val_loss": 1.1363608837127686,
+    "loop_losses": [
+      1.1450163960456847,
+      1.1363609075546264
+    ],
+    "loop_ce_calib": [
+      1.1526820850372315,
+      1.143811459541321
+    ],
+    "exit_curve": [
+      {
+        "threshold": 0.2,
+        "val_loss": 1.1526820850372315,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.3,
+        "val_loss": 1.1526820850372315,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.4,
+        "val_loss": 1.1526820850372315,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.5,
+        "val_loss": 1.1525756001472474,
+        "avg_loops": 1.003125,
+        "early_exit_fraction": 0.996875
+      },
+      {
+        "threshold": 0.6,
+        "val_loss": 1.151259205341339,
+        "avg_loops": 1.085,
+        "early_exit_fraction": 0.915
+      },
+      {
+        "threshold": 0.7,
+        "val_loss": 1.1480714988708496,
+        "avg_loops": 1.53,
+        "early_exit_fraction": 0.47
+      }
+    ],
+    "selection_tolerance": 0.01143811459541321,
+    "aggressive": {
+      "threshold": 0.2,
+      "val_loss": 1.1526820850372315,
+      "avg_loops": 1.0,
+      "early_exit_fraction": 1.0
+    },
+    "balanced": {
+      "threshold": 0.7,
+      "val_loss": 1.1480714988708496,
+      "avg_loops": 1.53,
+      "early_exit_fraction": 0.47
+    },
+    "samples": {
+      "full": {
+        "threshold": null,
+        "text": "def __init__(name):\n        \"\"\"This is a field parameter with the called in context.\n        Base_string unterminate only support to with this the imadart with at was now the decode have to the specified ",
+        "loops_mean": 2,
+        "tok_s": 39.8536600615169
+      },
+      "aggressive": {
+        "threshold": 0.2,
+        "text": "def test in\n        except TestInfo(self, self.allowing, errors)\n        self._main_name = return\n        self._attrs[self._depand_separe_effect_is_queue)\n\n    def get_example(self, node):\n        \"\"\"\n   ",
+        "loops_mean": 1,
+        "tok_s": 82.73067171193824
+      },
+      "balanced": {
+        "threshold": 0.7,
+        "text": "def default.index(object):\n        \"\"\"Return subclass context into execution, TypeError of the file \"__alog__\"\"\n        \"self-open_sequence()\" and \"\\n \"\"\"\"\" formats a first this is directory (invalid \"\n  ",
+        "loops_mean": 2,
+        "tok_s": 44.085039490248235
+      }
+    },
+    "cache_128tok_s": 44.24277604220704,
+    "nocache_128tok_s": 31.035652178839324
+  },
+  "hybrid_e8": {
+    "config": {
+      "block_size": 256,
+      "n_layer": 4,
+      "n_loop": 2,
+      "n_head": 4,
+      "n_kv_head": 2,
+      "n_embd": 128,
+      "mlp_ratio": 4,
+      "dropout": 0.1,
+      "vocab_size": 277,
+      "n_experts": 8,
+      "top_k": 1,
+      "moe_aux": 0.01,
+      "router_z": 0.001,
+      "adapter_dim": 16
+    },
+    "val_loss": 1.0962144136428833,
+    "loop_losses": [
+      1.1038067162036895,
+      1.096214405298233
+    ],
+    "loop_ce_calib": [
+      1.1195379853248597,
+      1.1122042107582093
+    ],
+    "exit_curve": [
+      {
+        "threshold": 0.2,
+        "val_loss": 1.1195379853248597,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.3,
+        "val_loss": 1.1195379853248597,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.4,
+        "val_loss": 1.1195379853248597,
+        "avg_loops": 1.0,
+        "early_exit_fraction": 1.0
+      },
+      {
+        "threshold": 0.5,
+        "val_loss": 1.1194400334358214,
+        "avg_loops": 1.001875,
+        "early_exit_fraction": 0.998125
+      },
+      {
+        "threshold": 0.6,
+        "val_loss": 1.1189095342159272,
+        "avg_loops": 1.070625,
+        "early_exit_fraction": 0.929375
+      },
+      {
+        "threshold": 0.7,
+        "val_loss": 1.1159319961071015,
+        "avg_loops": 1.503125,
+        "early_exit_fraction": 0.496875
+      }
+    ],
+    "selection_tolerance": 0.011122042107582093,
+    "aggressive": {
+      "threshold": 0.2,
+      "val_loss": 1.1195379853248597,
+      "avg_loops": 1.0,
+      "early_exit_fraction": 1.0
+    },
+    "balanced": {
+      "threshold": 0.7,
+      "val_loss": 1.1159319961071015,
+      "avg_loops": 1.503125,
+      "early_exit_fraction": 0.496875
+    },
+    "samples": {
+      "full": {
+        "threshold": null,
+        "text": "def last_next(self):\n            self.errors = self._locale_socket\n            self._module = self.getcontext()\n        self.assertEqual(cls.expected(''))\n        self.assertEqual('%s', 'flag\n            ",
+        "loops_mean": 2,
+        "tok_s": 15.959400462404762
+      },
+      "aggressive": {
+        "threshold": 0.2,
+        "text": "def _sequence(self, self, name=_name, number=True):\n        \"\"\"\n        \"\"\"\n        The create a self    # a set as doess in error of an events also the True in the module line line.\n        self._callbac",
+        "loops_mean": 1,
+        "tok_s": 26.145161892055672
+      },
+      "balanced": {
+        "threshold": 0.7,
+        "text": "def set_events(self, str):\n        \"\"\"\n        This return result attributes.  If True overrided in Action, which contains\n        subprocessor.  A served with context line if isinstance as iterator handl",
+        "loops_mean": 2,
+        "tok_s": 21.84590508163039
+      }
+    },
+    "cache_128tok_s": 30.624856329469434,
+    "nocache_128tok_s": 25.472068309265218
+  }
+}

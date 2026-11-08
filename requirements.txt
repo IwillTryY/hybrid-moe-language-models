@@ -1,0 +1,9 @@
+# Core
+torch>=2.5
+matplotlib>=3.9
+numpy>=1.26
+
+# Optional: cloud sweep, larger natural-language corpus, GPT-2 tokenizer
+modal>=1.5
+datasets>=3.0
+tiktoken>=0.8

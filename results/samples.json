@@ -1,0 +1,50 @@
+{
+  "dense8": {
+    "full": {
+      "threshold": null,
+      "text": "def __name__(self, other):\n        \"\"\"Parence so an self.__sextends(type)\n        if not hasattr(a, bytes):\n            count = self._format_offs_orig_action(part, value)\n        for string in test()\n    ",
+      "loops_mean": 1,
+      "tok_s": 52.37440590606618
+    }
+  },
+  "hybrid_e4": {
+    "full": {
+      "threshold": null,
+      "text": "def __init__(name):\n        \"\"\"This is a field parameter with the called in context.\n        Base_string unterminate only support to with this the imadart with at was now the decode have to the specified ",
+      "loops_mean": 2,
+      "tok_s": 39.8536600615169
+    },
+    "aggressive": {
+      "threshold": 0.2,
+      "text": "def test in\n        except TestInfo(self, self.allowing, errors)\n        self._main_name = return\n        self._attrs[self._depand_separe_effect_is_queue)\n\n    def get_example(self, node):\n        \"\"\"\n   ",
+      "loops_mean": 1,
+      "tok_s": 82.73067171193824
+    },
+    "balanced": {
+      "threshold": 0.7,
+      "text": "def default.index(object):\n        \"\"\"Return subclass context into execution, TypeError of the file \"__alog__\"\"\n        \"self-open_sequence()\" and \"\\n \"\"\"\"\" formats a first this is directory (invalid \"\n  ",
+      "loops_mean": 2,
+      "tok_s": 44.085039490248235
+    }
+  },
+  "hybrid_e8": {
+    "full": {
+      "threshold": null,
+      "text": "def last_next(self):\n            self.errors = self._locale_socket\n            self._module = self.getcontext()\n        self.assertEqual(cls.expected(''))\n        self.assertEqual('%s', 'flag\n            ",
+      "loops_mean": 2,
+      "tok_s": 15.959400462404762
+    },
+    "aggressive": {
+      "threshold": 0.2,
+      "text": "def _sequence(self, self, name=_name, number=True):\n        \"\"\"\n        \"\"\"\n        The create a self    # a set as doess in error of an events also the True in the module line line.\n        self._callbac",
+      "loops_mean": 1,
+      "tok_s": 26.145161892055672
+    },
+    "balanced": {
+      "threshold": 0.7,
+      "text": "def set_events(self, str):\n        \"\"\"\n        This return result attributes.  If True overrided in Action, which contains\n        subprocessor.  A served with context line if isinstance as iterator handl",
+      "loops_mean": 2,
+      "tok_s": 21.84590508163039
+    }
+  }
+}

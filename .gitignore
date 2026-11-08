@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+*.pt
+*.pth
+*.log
+data/*.txt
+!data/README.md
+.modal/
+.pytest_cache/
+.DS_Store
